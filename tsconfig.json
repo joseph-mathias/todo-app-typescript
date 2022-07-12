@@ -5,7 +5,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "jsx": "preserve",
-    "baseUrl": "./",
+    "baseUrl": "./dest",
     /* paths - import rewriting/resolving */
     "paths": {
       // If you configured any Snowpack aliases, add them here.
@@ -16,7 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "importsNotUsedAsValues": "error",
     /* more strict checking for errors that per-file transpilers like `esbuild` would crash */
-    "isolatedModules": true,
+    /*"isolatedModules": true,*/
     /* noEmit - We only use TypeScript for type checking. */
     "noEmit": true,
     /* Additional Options */
